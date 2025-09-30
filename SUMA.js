@@ -7,3 +7,8 @@ function resta(){
 function multiplicacion(){
     return 10*10
 }
+function division(){
+    return 100/10
+}   
+module.exports={suma,resta,multiplicacion,division} 
+//exportar las funciones para que se puedan usar en otros archivos
